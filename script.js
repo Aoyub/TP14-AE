@@ -46,4 +46,9 @@ function calc(){
     var total = v1 + v2 + v3
 
     document.getElementById("r4").value = total;
+
+}
+
+function impression(){
+    window.print();
 }
