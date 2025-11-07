@@ -48,8 +48,3 @@ function calc(){
     document.getElementById("r4").value = total;
 
 }
-
-function imp(){
-    window.print();
-}
-
