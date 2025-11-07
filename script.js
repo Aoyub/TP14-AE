@@ -49,6 +49,7 @@ function calc(){
 
 }
 
-function impression(){
+function imp(){
     window.print();
 }
+
