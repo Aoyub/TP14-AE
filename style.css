@@ -1,0 +1,18 @@
+.d1{
+    background-color: white;
+    height: 850px;
+    width: 100;
+    margin: 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,2);
+}
+
+.d3{
+   float: right; 
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}

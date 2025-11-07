@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facture</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body bgcolor="brown">
+    
+    <div class="d1">
+        <img src="i1.png" height="100" width="100">
+
+        <div class="d3">
+            <p>Date création : 07/11/2025</p>
+            <p>N°Facture :</p>
+        </div>
+        
+        <section>
+            <div class="d4">
+                <u><h4>Destinataire</h4></u>
+                
+                <label for="nm">Nom</label>
+                <input type="text" id="n1" name="nom"></input><br><br>
+
+                <label for="nm">Nom de la société</label>
+                <input type="text" id="n2" name="nom"></input><br><br>
+
+                <label for="nm">Adresse postale</label>
+                <input type="text" id="n3" name="nom"></input><br><br>
+
+                <label for="nm">Téléphone</label>
+                <input type="text" id="n4" name="nom"></input><br><br>
+
+                <label for="nm">Mail</label>
+                <input type="text" id="n5" name="nom"></input>
+            </div>
+
+            <div class="d5">
+                <u><h4>Envoyer à</h4></u>
+                
+                <label for="nm">Nom</label>
+                <input type="text" id="n6" name="nom"></input><br><br>
+
+                <label for="nm">Nom de la société</label>
+                <input type="text" id="n7" name="nom"></input><br><br>
+
+                <label for="nm">Adresse postale</label>
+                <input type="text" id="n8" name="nom"></input><br><br>
+
+                <label for="nm">Téléphone</label>
+                <input type="text" id="n9" name="nom"></input><br><br>
+
+                <label for="nm">Mail</label>
+                <input type="text" id="n10" name="nom"></input>
+            </div>
+        </section>
+        
+        <br><br>
+            <table>
+                <tr>
+                    <td>Article :</td>
+                    <td>Quantité :</td>
+                    <td>Prix :</td>
+                    <td>Résultat :</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="a1" name="a1"></input></td>
+                    <td><input type="number" id="q1" name="q1"></input></td>
+                    <td><input type="number" id="p1" name="p1"></input></td>
+                    <td><input type="number" id="r1" name="r1" value="null"></input></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="a2" name="a2"></input></td>
+                    <td><input type="number" id="q2" name="q2"></input></td>
+                    <td><input type="number" id="p2" name="p2"></input></td>
+                    <td><input type="number" id="r2" name="r2" value="null"></input></td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="a3" name="a3"></input></td>
+                    <td><input type="number" id="q3" name="q3"></input></td>
+                    <td><input type="number" id="p3" name="p3"></input></td>
+                    <td><input type="number" id="r3" name="r3" value="null"></input></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="number" id="r4" name="r4" value="null"></input></td>
+                </tr>
+            </table>
+        
+            <button onclick="rein()">Réinitialiser</button>
+            
+            <button onclick="calc()">Résultat</button>
+
+    </div>
+
+</body>
+</html>
